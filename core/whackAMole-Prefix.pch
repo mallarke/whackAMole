@@ -1,0 +1,27 @@
+//
+// Prefix header for all source files of the 'whackAMole' target in the 'whackAMole' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+
+    #import "NSObject+CustomInit.h"
+    #import "UIView+Center.h"
+
+    #import "colors.h"
+    #import "dimens.h"
+    #import "fonts.h"
+    #import "strings.h"
+    #import "values.h"
+
+    #import "Utility.h"
+
+#endif
