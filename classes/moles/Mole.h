@@ -6,8 +6,6 @@
 //  Copyright (c) 2012 bob, Inc. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 @protocol MoleDatasource;
 @protocol MoleDelegate;
 
